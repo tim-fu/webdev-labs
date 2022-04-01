@@ -3,9 +3,23 @@ body * {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, serif;
 }
 
-/*
-Add some style blocks below this line to style the card.
-*/
+section {
+    border: solid 1px tan;
+    margin: 50px;
+    width: 300px;
+    padding-bottom: 25px;
+}
+
+section h2, p, button {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+section img {
+    width: 100%;
+}
+
